@@ -1,0 +1,60 @@
+.navbar.navbar-inverse .container .navbar-header .navbar-brand {
+    height: auto;
+}
+.navbar.navbar-inverse {
+	background-color:transparent;
+	border: 0;
+}
+.main-slider .carousel-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+#header-logo {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    color: blanchedalmond;
+}
+#header-logo:hover {
+    color: red;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#myNavbar li a{
+    color: wheat;
+    font-size: medium;
+    left: 30px;
+    top: 25px;
+    font-size: medium;
+}
+#myNavbar li a:hover {
+    color:red;
+    font-weight: bold;
+}
+@media only screen and (max-width: 991px) {
+    .hover_effect h1 {
+        font-size: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hover_effect h1 {
+        font-size: 50px !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .hover_effect2 span {
+        font-size: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {   /*for mobile*/
+    .hover_effect2 span {
+        font-size: 30px !important;
+    }
+}
